@@ -1,6 +1,7 @@
 ---
 layout: default
-title: AI Consulting Services
+title: Our Services
+permalink: /services/
 ---
 
 # AI Consulting Services  
