@@ -17,8 +17,8 @@ nav {
 }
 
 nav img {
-    height: 50px;
-    margin-left: 15px;
+    height: 80px; /* Adjust size as needed */
+    display: block;
 }
 
 nav ul {
