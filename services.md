@@ -90,4 +90,3 @@ We deliver AI solutions across a variety of industries:
 AI is **revolutionizing business**—don’t get left behind! Let’s explore how **AI can improve your business efficiency, decision-making, and scalability**.
 
 📩 **[Contact Us](#contact)** for a Free AI Consultation.  
-🔗 **Follow Us**: [LinkedIn](https://www.linkedin.com/company/neuralcodelabs) | [X](https://twitter.com/neuralcodelabs) | [Facebook](https://www.facebook.com/neuralcodelabs/)  
