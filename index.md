@@ -34,5 +34,4 @@ We provide **custom AI solutions** tailored to your business needs.
 
 Let’s explore how AI can **streamline your business and boost efficiency**.  
 
-📩 **[Contact Us](#contact)** for a Free AI Consultation.  
-🔗 **Follow Us**: [LinkedIn](#) | [Twitter](#) | [Facebook](#)  
+📩 **[Contact Us](#contact)** for a Free AI Consultation. 
