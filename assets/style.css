@@ -133,17 +133,71 @@ footer a:hover {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-/* MailerLite Form*/
-/* Add red asterisk for required fields */
-.ml-form-fieldRow label::after {
-    content: " *"; /* Adds an asterisk */
-    color: red; /* Makes it red */
+/* General Form Styling */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Label Styling */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Required Asterisk */
+.required {
+    color: red;
     font-weight: bold;
 }
 
-/* Hide the asterisk for non-required fields */
-.ml-field-group.ml-field-company label::after,
-.ml-field-group.ml-field-phone label::after {
-    content: ""; /* Removes the asterisk for these fields */
+/* Input Fields */
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
+/* Textarea */
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #002147; /* Dark Blue - Matches Site */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.contact-form button:hover {
+    background: #003366;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+    }
+}
