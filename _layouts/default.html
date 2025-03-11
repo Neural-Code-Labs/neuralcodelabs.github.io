@@ -38,7 +38,7 @@
 </main>
 
 <footer>
-    <p>© 2024 Neural Code Labs | AI Consulting</p>
+    <p>© <span id="year"></span> Neural Code Labs | AI Consulting</p>
     <p>Follow us:</p>
     <div class="social-icons">
         <a href="https://www.linkedin.com/company/neuralcodelabs" target="_blank">
@@ -52,6 +52,10 @@
         </a>
     </div>
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
