@@ -163,7 +163,8 @@ footer a:hover {
     cursor: pointer;
 }
 
-.ml-embedded button:hover {
-    background: #002244;
+.ml-embedded {
+    display: block !important;
+    visibility: visible !important;
+    min-height: 500px; /* Ensures enough space for the form */
 }
-
