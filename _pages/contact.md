@@ -10,6 +10,7 @@ permalink: /contact/
 Have a question? Want to explore AI solutions? Fill out the form below, and we'll get back to you!
 
 ## **📩 Contact Form**
+
 <div class="ml-embedded" data-form="ZVxXIA"></div>
 
 ## **📞 Other Ways to Reach Us**
