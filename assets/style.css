@@ -177,25 +177,42 @@ button:hover {
     max-width: 600px;
     margin: 0 auto;
 }
+
 h2 {
     text-align: center;
     color: #003366;
 }
+
+.mc-field-group {
+    margin-bottom: 15px;
+}
+
 .mc-field-group label {
     font-weight: bold;
     color: #333;
+    display: block;
+    margin-bottom: 5px;
 }
-.mc-field-group input {
+
+.mc-field-group input,
+.mc-field-group textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
     border-radius: 4px;
     border: 1px solid #ccc;
+    font-size: 14px;
 }
+
+.mc-field-group textarea {
+    height: 120px; /* Makes the message box larger */
+    resize: vertical; /* Allows resizing */
+}
+
 .button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 10px;
     background-color: #003366;
     color: white;
@@ -204,13 +221,16 @@ h2 {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
+
 .button:hover {
     background-color: #002244;
 }
+
 .footer-text {
     text-align: center;
     font-size: 12px;
     color: #777;
+    margin-top: 15px;
 }
