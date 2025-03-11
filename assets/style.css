@@ -165,3 +165,52 @@ button:hover {
 .thank-you a:hover {
     background: #002244;
 }
+
+/* Contact Form Styling */
+#mc_embed_signup {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    color: #003366;
+}
+.mc-field-group label {
+    font-weight: bold;
+    color: #333;
+}
+.mc-field-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #002244;
+}
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
