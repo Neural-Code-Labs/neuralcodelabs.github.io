@@ -2,3 +2,7 @@ title: Neural Code Labs
 description: AI consulting services for automation, machine learning, and data analysis.
 author: Tyler Chambers
 theme: jekyll-theme-cayman
+collections:
+  pages:
+    output: true
+    permalink: /:path/
