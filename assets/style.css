@@ -133,38 +133,70 @@ footer a:hover {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-/*Mailer Lite Form*/
-.ml-embedded {
-    width: 100%;
+/* MailerLite Form*/
+/* Style the form container */
+.ml-form-embedContainer {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    background: white;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.ml-embedded input,
-.ml-embedded textarea {
+/* Style form labels */
+.ml-form-embedContainer label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Style input fields */
+.ml-form-embedContainer input,
+.ml-form-embedContainer textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
-    border-radius: 4px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
-.ml-embedded button {
-    background: #003366;
-    color: white;
+/* Improve textarea appearance */
+.ml-form-embedContainer textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Style the submit button */
+.ml-form-embedContainer button {
+    width: 100%;
     padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.ml-embedded {
-    display: block !important;
-    visibility: visible !important;
-    min-height: 500px; /* Ensures enough space for the form */
+/* Hover effect for button */
+.ml-form-embedContainer button:hover {
+    background-color: #38bdf8;
+}
+
+/* Improve spacing and alignment */
+.ml-form-embedContainer .ml-form-fieldRow {
+    margin-bottom: 15px;
+}
+
+/* Optional: Adjust alignment for better form layout */
+.ml-form-embedContainer .ml-form-embedBody {
+    text-align: left;
 }
