@@ -47,4 +47,3 @@ With a background in **data analysis, automation, and AI-driven business optimiz
 Want to learn how AI can transform your business? **Let's connect!**  
 
 📩 **[Contact Us](#contact)** for a Free AI Consultation.  
-🔗 **Follow Us**: [LinkedIn](https://www.linkedin.com/company/neuralcodelabs) | [X](https://twitter.com/neuralcodelabs) | [Facebook](https://www.facebook.com/neuralcodelabs/)  
