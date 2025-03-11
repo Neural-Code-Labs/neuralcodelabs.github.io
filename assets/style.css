@@ -71,6 +71,30 @@ strong {
     color: #003366;
 }
 
+.thank-you {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.thank-you h1 {
+    color: #003366;
+}
+
+.thank-you a {
+    display: inline-block;
+    background: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.thank-you a:hover {
+    background: #002244;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -109,59 +133,37 @@ footer a:hover {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-form {
-    max-width: 500px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input, textarea {
+/*Mailer Lite Form*/
+.ml-embedded {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-button {
+.ml-embedded input,
+.ml-embedded textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.ml-embedded button {
     background: #003366;
     color: white;
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 4px;
     font-size: 16px;
+    cursor: pointer;
 }
 
-button:hover {
+.ml-embedded button:hover {
     background: #002244;
 }
 
-.thank-you {
-    text-align: center;
-    margin: 50px auto;
-    max-width: 600px;
-}
-
-.thank-you h1 {
-    color: #003366;
-}
-
-.thank-you a {
-    display: inline-block;
-    background: #003366;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.thank-you a:hover {
-    background: #002244;
-}
