@@ -10,7 +10,7 @@ permalink: /contact/
 Have a question? Want to explore AI solutions? Fill out the form below, and we'll get back to you!
 
 ## **📩 Contact Form**
-<form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+<form action="https://formsubmit.co/info@neuralcodelabs.com" method="POST">
     <input type="hidden" name="_next" value="https://neuralcodelabs.com/thank-you/">
     
     <label for="name">Name:</label>
