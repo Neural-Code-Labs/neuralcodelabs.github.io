@@ -11,34 +11,37 @@ Have a question? Want to explore AI solutions? Fill out the form below, and we'l
 
 ## **📩 Contact Form**
 
-<form action="https://formspree.io/f/xkgjnveb" method="POST">
-    <div class="form-group">
-        <label for="name" class="required">Full Name</label>
-        <input type="text" id="name" name="name" required>
-    </div>
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value=44a3b605-fda5-4ac5-85b8-4e3a1c20d2bf>
+    <input type="hidden" name="autoresponder" value="true">
+    <input type="hidden" name="autoresponder_subject" value="We received your message - Neural Code Labs">
+    <input type="hidden" name="autoresponder_message" value="Hi {name}, thank you for reaching out to Neural Code Labs! We've received your message and will get back to you shortly.">
+    <input type="hidden" name="autoresponder_from_name" value="Neural Code Labs">
+    <input type="hidden" name="autoresponder_from_email" value="info@neuralcodelabs.com">
+    <input type="hidden" name="autoresponder_replyto" value="info@neuralcodelabs.com">
+    <input type="hidden" name="redirect" value="https://neuralcodelabs.com/thank-you.md">
+    
+    <label for="name">Full Name*</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+    
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+    
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" placeholder="Enter your company name">
+    
+    <label for="message">Message*</label>
+    <textarea id="message" name="message" required placeholder="Write your message"></textarea>
 
-    <div class="form-group">
-        <label for="email" class="required">Email</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-
-    <div class="form-group">
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone">
-    </div>
-
-    <div class="form-group">
-        <label for="company">Company</label>
-        <input type="text" id="company" name="company">
-    </div>
-
-    <div class="form-group">
-        <label for="message" class="required">Message</label>
-        <textarea id="message" name="message" required></textarea>
-    </div>
+    <!-- Send a confirmation email to the user -->
+    <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html">
 
     <button type="submit">Send Message</button>
 </form>
+
 
 ## **📞 Other Ways to Reach Us**
 📧 Email: **info@neuralcodelabs.com**  
