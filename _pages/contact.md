@@ -11,25 +11,34 @@ Have a question? Want to explore AI solutions? Fill out the form below, and we'l
 
 ## **📩 Contact Form**
 
-<form action="https://formspree.io/f/xkgjnveb" method="POST" class="contact-form">
-    <label for="name">Full Name: <span class="required">*</span></label>
-    <input type="text" id="name" name="name" required>
+<form action="https://formspree.io/f/xkgjnveb" method="POST">
+    <div class="form-group">
+        <label for="name" class="required">Full Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
 
-    <label for="email">Email: <span class="required">*</span></label>
-    <input type="email" id="email" name="email" required>
+    <div class="form-group">
+        <label for="email" class="required">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
 
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone">
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone">
+    </div>
 
-    <label for="company">Company:</label>
-    <input type="text" id="company" name="company">
+    <div class="form-group">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company">
+    </div>
 
-    <label for="message">Message: <span class="required">*</span></label>
-    <textarea id="message" name="message" required></textarea>
+    <div class="form-group">
+        <label for="message" class="required">Message</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
 
     <button type="submit">Send Message</button>
 </form>
-
 
 ## **📞 Other Ways to Reach Us**
 📧 Email: **info@neuralcodelabs.com**  
