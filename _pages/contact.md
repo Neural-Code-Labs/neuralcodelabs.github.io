@@ -19,7 +19,7 @@ Have a question? Want to explore AI solutions? Fill out the form below, and we'l
     <input type="hidden" name="autoresponder_from_name" value="Neural Code Labs">
     <input type="hidden" name="autoresponder_from_email" value="info@neuralcodelabs.com">
     <input type="hidden" name="autoresponder_replyto" value="info@neuralcodelabs.com">
-    <input type="hidden" name="redirect" value="https://neuralcodelabs.com/thank-you.md">
+    <input type="hidden" name="redirect" value="https://neuralcodelabs.com/thank-you">
     
     <label for="name">Full Name*</label>
     <input type="text" id="name" name="name" required placeholder="Enter your full name">
