@@ -134,9 +134,16 @@ footer a:hover {
 }
 
 /* MailerLite Form*/
-/* Add an asterisk (*) after required field labels */
-.ml-field-group label::after {
-    content: " *";
-    color: red;
+/* Add red asterisk for required fields */
+.ml-form-fieldRow label::after {
+    content: " *"; /* Adds an asterisk */
+    color: red; /* Makes it red */
     font-weight: bold;
 }
+
+/* Hide the asterisk for non-required fields */
+.ml-field-group.ml-field-company label::after,
+.ml-field-group.ml-field-phone label::after {
+    content: ""; /* Removes the asterisk for these fields */
+}
+
