@@ -66,20 +66,6 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        if (typeof ml === "undefined") {
-            var script = document.createElement("script");
-            script.src = "https://assets.mailerlite.com/js/universal.js";
-            script.async = true;
-            document.body.appendChild(script);
-            script.onload = function () {
-                ml('account', '1379057');
-            };
-        }
-    });
-</script>
-  
 </body>
 </html>
 
