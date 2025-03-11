@@ -43,7 +43,7 @@ Have a question? Want to explore AI solutions? Fill out the form below, and we'l
 
         <p>We’re excited to help you explore <strong>how AI can transform your business</strong>.  
         If you have any urgent questions, feel free to reach out directly at  
-        <a href='mailto:contact@neuralcodelabs.com'>contact@neuralcodelabs.com</a>.</p>
+        <a href='mailto:contact@neuralcodelabs.com'>info@neuralcodelabs.com</a>.</p>
 
         <a href='https://neuralcodelabs.com' class='cta-button'>Visit Our Website</a>
         <a href='https://www.linkedin.com/company/neuralcodelabs' class='cta-button'>Follow Us on LinkedIn</a>
