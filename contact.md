@@ -51,6 +51,3 @@ Have a question? Want to explore AI solutions? Fill out the form below, and we'l
 ## **📞 Other Ways to Reach Us**
 📧 **Email:** [info@neuralcodelabs.com](mailto:info@neuralcodelabs.com)  
 🌐 **Website:** [Neural Code Labs](https://www.neuralcodelabs.com)  
-
-🚀 Follow us on **[LinkedIn](https://www.linkedin.com/company/neuralcodelabs)** | **[X](https://twitter.com/neuralcodelabs)** | **[Facebook](https://www.facebook.com/neuralcodelabs/)**  
-
