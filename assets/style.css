@@ -133,71 +133,59 @@ footer a:hover {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-/* General Form Styling */
-.contact-form {
+/* General form styling */
+form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     margin: 20px auto;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
 }
 
-/* Label Styling */
-.contact-form label {
-    display: block;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #333;
-}
-
-/* Required Asterisk */
-.required {
-    color: red;
-    font-weight: bold;
-}
-
-/* Input Fields */
-.contact-form input, 
-.contact-form textarea {
+/* Style input fields */
+input, textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin: 5px 0 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
-/* Textarea */
-.contact-form textarea {
-    height: 120px;
-    resize: vertical;
+/* Required field indicator */
+label.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
 }
 
-/* Submit Button */
-.contact-form button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 15px;
-    background: #002147; /* Dark Blue - Matches Site */
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
+/* Submit button */
+button {
+    background-color: #002855; /* Matches Neural Code Labs theme */
+    color: white;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    width: 100%;
 }
 
-/* Hover Effect */
-.contact-form button:hover {
-    background: #003366;
+button:hover {
+    background-color: #0056b3;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact-form {
-        width: 90%;
+/* Align fields properly */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
     }
 }
